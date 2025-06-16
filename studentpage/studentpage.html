@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Courses</title>
+  <link rel="stylesheet" href="studentpage.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="logo-section">
+      <img src="../dunecrestLogo.webp" alt="DAS Logo" class="logo" />
+      <h1>Dunecrest American School</h1>
+    </div>
+
+    <nav>
+       <ul>
+        <li><a href="../homepage/homepage.html">Home Page</a></li>
+        <li class="active" id="student-name"><a href="../studentpage/studentpage.html">Student Name</a></li> <!-- To be set dynamically -->
+        <li><a href="../courses/courses.html">Courses</a></li>
+        <li><a href="../schedule/schedule.html">Schedule</a></li>
+        <li><a href="../grades/grades.html">PowerSchool Grades</a></li>
+        <li><a href="../calendar/calendar.html">Calendar</a></li>
+        <li><a href="../signOut/signOut.html">Sign Out</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+    <main class="main-content">
+       <header class="page-header"><h2>Student Information</h2></header>
+
+    <div class="student-info">
+      <table>
+        <tr>
+          <td><strong>Full Name</strong></td>
+          <td id="full-name"></td>
+        </tr>
+        <tr>
+          <td><strong>Email Address</strong></td>
+          <td id="email"></td>
+        </tr>
+        <tr>
+          <td><strong>Student ID</strong></td>
+          <td id="student-id"></td>
+        </tr>
+        <tr>
+          <td><strong>Grade level</strong></td>
+          <td id="grade-level"></td>
+        </tr>
+        <tr>
+          <td><strong>Date of Birth</strong></td>
+          <td id="date-of-birth"></td>
+        </tr>
+      </table>
+    </div>
+    
+  </main>
+
+  <script src="studentpage.js"></script>
+</body>
+</html>
